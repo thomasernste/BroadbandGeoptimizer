@@ -1,16 +1,14 @@
 # Productionalizing a Machine Learning Model for Predicting Housing Values
 
-### Introduction
+### Problem Statement:
 
-Many types of companies, their data science teams, and the general public as a whole have an interest in having fair and accurate housing valuations. However, prior to the rise of big data, the process of determining housing values was a somewhat unscientific process determined by lenders, realtors, and a set of standards that lacked sufficient information. Indeed, besides the basic goal of people wanting to get their fair money's worth out of their homes, problems like the housing bubble burst that occured in the United States around 2006 were arguably due at least in part to artificially inflated housing values that were the product of a inadequately informed valuation process.
+Many types of companies, their data science teams, and the general public as a whole have an interest in having fair and accurate housing valuations. However, prior to the rise of big data, the process of determining housing values was a somewhat unscientific process determined by lenders, realtors, and a set of standards that lacked sufficient information. And besides the basic goal of people wanting to get their fair money's worth out of their homes and the industry seeking better standards, problems like the housing bubble burst that occurred in the United States around 2006 were arguably due at least in part to artificially inflated housing values that were the product of a inadequately informed valuation process. In that sense, accuracy in housing values
 
-As big data exploded and new forms of data science developed, one way that data science professionals and students have sought to apply data science has been to create machine learning models aimed at predicting the sale price of housing. These efforts have led to the creation of existing machine learning models with relatively high degrees of predictive accuracy.
+As big data exploded and new forms of data science developed, one way that data science professionals and students have sought to apply data science has been to create machine learning models aimed at predicting the sale price of housing. Further, finding methods for improving predictions of housing values can lead to better information to inform the process of setting informed standards for determining housing values. These  efforts have led to the creation of existing machine learning models with relatively high degrees of predictive accuracy. However, many of these efforts to develop machine learning models for predicting housing prices have been applied to relatively small-scale data. Building machine learning models that can scale for massive amounts of data presents numerous challenges.
 
-Many of these efforts to develop machine learning models for predicting housing prices have been applied to relatively small-scale data. So what if we put one or more of these machine learning models into a data engineering pipeline that's capable of handling massive amounts of streaming data from multiple real estate APIs? That's what this project is designed to do.
+### Solution:
 
-### Project:
-
-This data engineering project proposes to build such a production-level pipeline that would enable data scientists to easily refine machine learning models that are able to scale up for massive amounts of streaming and restful data from multiple real estate APIs. There are many challenges involved with productionalizing machine learning models that are highly scaled, however.
+We can put one or more of these machine learning models into a production-level data engineering pipeline that's capable of handling massive amounts of streaming and rest API data from multiple real estate APIs. Data can be stored in a database and combined with new data coming in and data scientists could then refine their machine learning model (or models) on existing and newly incoming data.
 
 
 ### Data Pipeline:
