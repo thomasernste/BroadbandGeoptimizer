@@ -10,12 +10,12 @@ Many of these efforts to develop machine learning models for predicting housing 
 
 ### Project:
 
-This data engineering project proposes to build such a production-level pipeline that would enable data scientists to easily refine machine learning models that are able to scale up for massive amounts of streaming data from multiple real estate APIs. There are many challenges involved with productionalizing machine learning models that are highly scaled, however.
+This data engineering project proposes to build such a production-level pipeline that would enable data scientists to easily refine machine learning models that are able to scale up for massive amounts of streaming and restful data from multiple real estate APIs. There are many challenges involved with productionalizing machine learning models that are highly scaled, however.
 
 
 ### Data Pipeline:
 
-This project will be designed to ingest and proecess massive amounts of streaming data from multiple real estate APIs, such as Zillow.com, Trulia.com, Attomdata.com and then perform stream and restful processing, clean the data as it comes in, enabling real-time training of the machine learning model on that data, enable adjustments to the model by data scientists, and store historical data in a database that can become the basis of a very robust machine learning model.  Based on these needs from my pipeline, I propose the following tools for my pipeline:
+This project will be designed, first, to ingest and proecess massive amounts of streaming and rest API data from multiple real estate APIs, such as Zillow.com, Trulia.com, Attomdata.com. It will also facilitate processing of stream and restful data processing, clean the data as it comes in, enabling real-time training of the machine learning model on that data, allowing adjustments to the model (or models) by data scientists as needed, and store historical data in a database that can become the basis of a very robust machine learning model for predicting housing values.  Based on these needs for my pipeline, I propose the following tools for my pipeline:
 
 - **File System** -------------> AWS S3 
 
