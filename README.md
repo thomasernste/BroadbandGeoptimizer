@@ -1,4 +1,4 @@
-# Productionalizing Machine Learning Models for Predicting Housing Values
+# Productionalizing a Machine Learning Model for Predicting Housing Values
 
 ### Introduction
 
