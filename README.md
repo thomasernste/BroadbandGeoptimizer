@@ -15,7 +15,7 @@ This data engineering project proposes to build such a production-level pipeline
 
 ### Data Pipeline:
 
-This project will be designed to ingest and proecess massive amounts of streaming data from multiple real estate APIs, then perform stream processing, clean the data as it streams in, enabling real-time training of the machine learning model on that streaming data, enable adjustments to the model by data scientists, and store historical data in a database that can become the basis of a very robust machine learning model.  Based on these needs from my pipeline, I propose the following tools for my pipeline:
+This project will be designed to ingest and proecess massive amounts of streaming data from multiple real estate APIs, such as Zillow.com, Trulia.com, Attomdata.com and then perform stream and restful processing, clean the data as it comes in, enabling real-time training of the machine learning model on that data, enable adjustments to the model by data scientists, and store historical data in a database that can become the basis of a very robust machine learning model.  Based on these needs from my pipeline, I propose the following tools for my pipeline:
 
 - **File System** -------------> AWS S3 
 
