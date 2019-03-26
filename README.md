@@ -2,7 +2,7 @@
 
 ### Problem Statement:
 
-A persistent problem for companies from all industries and researchers from all kinds of organizations is that while there is really no shortgage of accessible, interesting information in the "big data" age, most organizations continue to experience problems of messiness and fragmentation of the accessible data. I many cases, much of the data that's technically available to use may as well be inaccessible for all intents and purposes.
+A persistent problem for companies and researchers from all industriesis that while there is really no shortgage of accessible, interesting information in the "big data" age, most organizations continue to experience problems of messiness and fragmentation of the accessible data. I many cases, much of the data that's technically available to use may as well be inaccessible for all intents and purposes.
 
 The housing industry is one example of an industry with persistent problems dealing with unclean data from a fragmented ocean of historical datasets and APIs. Fannie Mae and Freddie Mac have massive datasets containing data involving acquisitions and performance of mortgages over the past few decades, for example, and important insights can be drawn from these datasets about trends in housing values. But the utility of such datasets can be enhanced when joined with demographic data from datasets such as the American Housing Survey and the General Social Survey or housing data from real estate sites like Zillow.com.
 
