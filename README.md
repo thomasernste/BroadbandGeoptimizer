@@ -1,28 +1,35 @@
-# From Messy, Fragmented Data Lakes to Cleansed, Integrated Databases: Making Sense of Mortgage and Housing Information With Big Data Engineering
+# Broadband Geoptimizer
+
+## (Alternate titles: Broadband GeoValueOptimizer, Broadband)
 
 ### Problem Statement:
+In recent years, the distribution of property costs between large metropolitan areas and everywhere else has become more extreme than ever before (need a source). For some people, the costs of living in or near the center of the city are worth the benefits. But increasingly, these skyrocketing costs are pushing businesses and their employees to consider other options.
 
-A persistent problem for companies and researchers from all industriesis that while there is really no shortgage of accessible, interesting information in the "big data" age, most organizations continue to experience problems of messiness and fragmentation of the accessible data. I many cases, much of the data that's technically available to use may as well be inaccessible for all intents and purposes.
+In the 21st century, when families and businesses decide where they'd like to live or run a business, it has become essential that they must consider the availability of high-speed, quality broadband in any geographic area they might consider. Companies and individual workers seeking to find areas in the country that have the combination of low property values and high broadband speeds need information to help inform those decisions. While all businesses and people would like to keep their broadband speeds high and property values as low as possible, they might have some other different wants and needs. For example, here are two possible combinations:
 
-The housing industry is one example of an industry with persistent problems dealing with unclean data from a fragmented ocean of historical datasets and APIs. Fannie Mae and Freddie Mac have massive datasets containing data involving acquisitions and performance of mortgages over the past few decades, for example, and important insights can be drawn from these datasets about trends in housing values. But the utility of such datasets can be enhanced when joined with demographic data from datasets such as the American Housing Survey and the General Social Survey or housing data from real estate sites like Zillow.com.
+(1) Some may want to find places with the fast broadband and cheap living that are located far away from any major cities. These might be remote workers who want to live out in the woods, for example.
 
-The insights that data scienctists can glean from advanced analytics methods on such joined datasets can improve a company's understanding of their industry and business goals, but making such strives is highly dependent not only on accessing the information that can fuel these insights but having the data cleaned and ready to go in a database that allows queries and analysis of massive datasets.
+(2) Others may want to live close enough to a major city -- maybe within 50 miles from a city -- but still have relatively low property values and fast broadband.
+
 
 ### Solution:
 
-With the use of AWS services and a series of compatible tools for big data processing, wrangling, querying, and storage, this project will construct a production-level data engineering pipeline that's capable of ingesting and joining together numerous massive datasets from historical datasets and potentially streaming and rest API data.  The data will be pre-processed, stored in a database, and readied for queries by data scientists who would like to glean insights from the data.
+Using a series of large, publically available datasets containing information all mapped by zip code and also including broadband speeds, housing values, population data, and GPS coordinates, Broadband Geoptimizer is a tool that centralizes this disparate data together to help people identify areas in the US that have a desirable combination of fast broadband speeds and an ideal location for their desires and needs.
+
+With the use of AWS services and a series of compatible tools for big data processing, wrangling, querying, and storage, this project will construct a production-level data engineering pipeline that's capable of ingesting and joining together these massive historical datasets. Further, it would be built to easily allow future enhancement -- that is, the tools used in my data pipeline will allow for high scalability and extensibility, meaning that I will be able to add additional existing datasets or data from APIs to ingest updated information.  After ingestion of the data, the data will be pre-processed, stored in a database, and made available for queries by data scientists, companies, or anyone with an interest in finding the best place for them to live or work.
 
 
 ### Data Pipeline:
 
-This project will be designed, first, to ingest and proecess massive amounts of streaming and rest API data from multiple real estate APIs, such as Zillow.com, Trulia.com, Attomdata.com. It will also facilitate processing of stream and restful data processing, clean the data as it comes in, enabling real-time training of the machine learning model on that data, allowing adjustments to the model (or models) by data scientists as needed, and store historical data in a database that can become the basis of a very robust machine learning model for predicting housing values.  Based on these needs for my pipeline, I propose the following tools for my pipeline:
+This project will be designed, first, to ingest and proecess several separate existing datasets with the infrastructure needed to easily extend the ingestion process to include streaming and rest API data. It will also facilitate the efficient processing of unclean data and storage in a database equipped for extreme scalability, customized interactive queries, and real-time calculations performed by data scientists..  Based on these needs for my pipeline, I propose the following tools for my pipeline:
 
 - **File System** -------------> AWS S3 
 
       - Rationale: most obvious choice for working in AWS architecture
 
 
-- **Ingestion** ---------------> Spark
+- **Ingestion** ---------------> ![Spark](https://cdn-images-1.medium.com/max/1200/1*tP-dw4Oj_42BYbkdtYbjMA.png)
+
 
       - Rationale:
                   - Enables quick and reliable ingestion of historical datasets
