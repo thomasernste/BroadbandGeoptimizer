@@ -1,6 +1,6 @@
 # Broadband Geoptimizer
 
-## (Alternate titles: Broadband GeoValueOptimizer, Broadband)
+## (Alternate title: Broadband GeoValueOptimizer)
 
 ### Problem Statement:
 In recent years, the distribution of property costs between large metropolitan areas and everywhere else has become more extreme than ever before (need a source). For some people, the costs of living in or near the center of the city are worth the benefits. But increasingly, these skyrocketing costs are pushing businesses and their employees to consider other options.
