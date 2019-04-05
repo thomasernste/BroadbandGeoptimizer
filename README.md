@@ -23,12 +23,15 @@ With the use of AWS services and a series of compatible tools for big data proce
 
 This project will be designed, first, to ingest and proecess several separate existing datasets with the infrastructure needed to easily extend the ingestion process to include streaming and rest API data. It will also facilitate the efficient processing of unclean data and storage in a database equipped for extreme scalability, customized interactive queries, and real-time calculations performed by data scientists..  Based on these needs for my pipeline, I propose the following tools for my pipeline:
 
-- **File System** -------------> AWS S3 
+## **Cloud Architecture** ![Amazon Web Services](https://assets.pcmag.com/media/images/408546-amazon-web-services-logo.jpg)
+
+
+#### **File System** -------------> ![AWS S3](https://braze-marketing-assets.s3.amazonaws.com/images/partner_logos/amazon-s3.png)
 
       - Rationale: most obvious choice for working in AWS architecture
 
 
-- **Ingestion** ---------------> ![Spark](https://cdn-images-1.medium.com/max/1200/1*tP-dw4Oj_42BYbkdtYbjMA.png)
+#### **Ingestion** ---------------> ![Spark](https://cdn-images-1.medium.com/max/1600/1*Pa7PO1v7bANI7C-eHMS_PQ.png)
 
 
       - Rationale:
@@ -38,22 +41,20 @@ This project will be designed, first, to ingest and proecess several separate ex
                   - Works seamlessly with AWS
                   
 
-- **DB Storage** --------------> Amazon Redshift
+#### **DB Storage** --------------> ![Amazon Redshift](https://cdn.filestackcontent.com/Ahfkqi4FTFCMEb7GQrHm)
+
 
                   - Optimized for facilitating analytics by data scientists
                   - Fully scalable for a massive database
                   - Again, works seamlessly with AWS
-
-### MVP:
-
-      - Combine and clean datasets from at least 4 sources including 2 sources of mortgage and real estate data
-        (Fannie Mae and Freddie Mac for Mortgage Data and Zillow for real estate) and 2 sources of demographic data including 
-        the American Housing Survey and the General Social Survey).
+                  
+                  
 
 ### Stretch goals: 
 
-      - Identify and incorporate other relevant datasets that could enhance my insights into the mortgage/housing industries
-      - Find additional novel questions to ask about the data toward demonstrating business value
-      - Add data from APIs as available
+      - Identify and incorporate other relevant datasets and/or sources of API data that could be incorporated based on 
+      user feedback loops that may include requests for information not yet included in these datasets.
+      mortgage/housing industries
+      - Build custom, interactive User Interface using ![Flask](https://developers.redhat.com/blog/wp-content/uploads/2018/06/python-flask-logo.png)
       
 
