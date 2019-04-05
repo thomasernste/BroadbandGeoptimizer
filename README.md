@@ -55,6 +55,8 @@ This project will be designed, first, to ingest and proecess several separate ex
       - Identify and incorporate other relevant datasets and/or sources of API data that could be incorporated based on 
       user feedback loops that may include requests for information not yet included in these datasets.
       mortgage/housing industries
-      - Build custom, interactive User Interface using ![Flask](https://developers.redhat.com/blog/wp-content/uploads/2018/06/python-flask-logo.png)
+      - Build custom, interactive User Interface using:
+      
+ ![Flask](https://developers.redhat.com/blog/wp-content/uploads/2018/06/python-flask-logo.png)
       
 
