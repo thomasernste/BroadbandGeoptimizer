@@ -23,15 +23,18 @@ With the use of AWS services and a series of compatible tools for big data proce
 
 This project will be designed, first, to ingest and proecess several separate existing datasets with the infrastructure needed to easily extend the ingestion process to include streaming and rest API data. It will also facilitate the efficient processing of unclean data and storage in a database equipped for extreme scalability, customized interactive queries, and real-time calculations performed by data scientists..  Based on these needs for my pipeline, I propose the following tools for my pipeline:
 
-## **Cloud Architecture** ![Amazon Web Services](https://assets.pcmag.com/media/images/408546-amazon-web-services-logo.jpg)
+## **Cloud Architecture** 
+![Amazon Web Services](https://assets.pcmag.com/media/images/408546-amazon-web-services-logo.jpg)
 
 
-#### **File System** -------------> ![AWS S3](https://braze-marketing-assets.s3.amazonaws.com/images/partner_logos/amazon-s3.png)
+#### **File System** 
+![AWS S3](https://braze-marketing-assets.s3.amazonaws.com/images/partner_logos/amazon-s3.png)
 
       - Rationale: most obvious choice for working in AWS architecture
 
 
-#### **Ingestion** ---------------> ![Spark](https://cdn-images-1.medium.com/max/1600/1*Pa7PO1v7bANI7C-eHMS_PQ.png)
+#### **Ingestion**   
+![Spark](https://cdn-images-1.medium.com/max/1600/1*Pa7PO1v7bANI7C-eHMS_PQ.png)
 
 
       - Rationale:
@@ -41,7 +44,8 @@ This project will be designed, first, to ingest and proecess several separate ex
                   - Works seamlessly with AWS
                   
 
-#### **DB Storage** --------------> ![Amazon Redshift](https://cdn.filestackcontent.com/Ahfkqi4FTFCMEb7GQrHm)
+#### **DB Storage**  
+![Amazon Redshift](https://cdn.filestackcontent.com/Ahfkqi4FTFCMEb7GQrHm)
 
 
                   - Optimized for facilitating analytics by data scientists
