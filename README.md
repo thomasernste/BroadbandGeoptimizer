@@ -57,6 +57,6 @@ This project will be designed, first, to ingest and proecess several separate ex
       mortgage/housing industries
       - Build custom, interactive User Interface using:
       
- ![Flask](https://developers.redhat.com/blog/wp-content/uploads/2018/06/python-flask-logo.png)
+ ![Flask](https://cdn-images-1.medium.com/max/1200/1*0G5zu7CnXdMT9pGbYUTQLQ.png)
       
 
