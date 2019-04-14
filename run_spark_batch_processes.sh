@@ -1,0 +1,1 @@
+spark-submit --master local[*] batch_process.py 's3a://sparkforinsightproject/Fixed_Broadband_Deployment_Data__June__2017_Status_V1.csv' 's3a://sparkforinsightproject/database_data/transformed_BROADBAND_dataset.csv'
