@@ -10,7 +10,7 @@ This project seeks to help solve this problem. When a company decides they want 
 
 Using a series of large, publically available datasets containing information all mapped by zip code and also including broadband speeds, housing values, population data, demographics, and GPS coordinates, Broadband Geoptimizer is a tool that centralizes this disparate data together to help people identify areas in the US that have a desirable combination of fast broadband speeds and an ideal location for their desires and needs.
 
-With the use of AWS services and a series of compatible tools for big data processing, wrangling, querying, and storage, for this project I constructed a production-level data pipeline that's capable of ingesting and joining together these massive historical datasets. Further, the tools used make it easy to allow future enhancement such as increasing the scale of the data by adding additional existing datasets or data from APIs to ingest updated information.
+With the use of AWS services and a series of compatible tools for big data processing, wrangling, querying, and storage, for this project I constructed a production-level data pipeline that's capable of ingesting and joining together these massive historical datasets. Further, the functionality of the tools used allow for easy future enhancements to the database such as increasing the scale of the data by adding additional existing datasets or incorporating new data from APIs to ingest updated information.
 
 ### Data Pipeline:
 
