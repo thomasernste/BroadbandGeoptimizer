@@ -1,7 +1,5 @@
 # Broadband Scout
 
-## (Alternate title: Broadband GeoValueOptimizer)
-
 ### Problem Statement:
 
 In recent years, the difference between property costs in large metropolitan areas and everywhere else has become more extreme than ever before. These low property costs outside of big cities can be attractive to companies that might be looking to build or buy a new facility, but one significant factor they can't overlook in choosing a new business site is the quality and speed of the broadband access in their chosen areas of interest. But do companies even know where to look to easily find this information?
