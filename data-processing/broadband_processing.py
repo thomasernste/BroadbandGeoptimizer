@@ -88,7 +88,8 @@ def extract_transform_load_broadband(input_data_txt, output_data_txt):
                           )
 
 
-    df_transformed_BROADBAND = spark.read.csv(rdd_transformed_BROADBAND, quote='"', header=False, mode="DROPMALFORMED", sep=',', nullValue='NA', my_schema)
+    df_transformed_BROADBAND = spark.read.csv(rdd_transformed_BROADBAND, quote='"', header=False, 
+					      mode="DROPMALFORMED", sep=',', nullValue='NA', schema=my_schema)
 
 
     # This code renames the columns I want to keep.
