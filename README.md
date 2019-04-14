@@ -2,15 +2,15 @@
 
 ### Problem Statement:
 
-In recent years, the difference between property costs in large metropolitan areas and everywhere else has become more extreme than ever before. These low property costs outside of big cities can be attractive to companies that might be looking to build or buy a new facility, but one significant factor they can't overlook in choosing a new business site is the quality and speed of the broadband access in their chosen areas of interest. But do companies even know where to look to easily find this information?
+In recent years, the gap between property costs in large metropolitan areas and everywhere else has become more extreme than ever before. Some companies may want to consider looking to build or buy a new facility outside of the city, but one significant factor they can't overlook in this process is the quality and speed of the broadband access in their chosen areas of interest. But do companies even know where to look to easily find this information?
 
-This project seeks to help solve this problem. When a company decides they want to take advantage of the cost savings of setting up a business outside of the big city, Broadband Scout is an information database that companies can use to help make decisions about where they should build or buy a new building for their business.
+This project seeks to help solve this problem. When a company decides they want to take advantage of the cost savings of setting up a business outside of the big city, Broadband Scout is an information database that can help companies compare the broadband speeds and a few other local characteristics to help make decisions about where they should build or buy a new building for their business.
 
 ### Solution:
 
 Using a series of large, publically available datasets containing information all mapped by zip code and also including broadband speeds, housing values, population data, demographics, and GPS coordinates, Broadband Geoptimizer is a tool that centralizes this disparate data together to help people identify areas in the US that have a desirable combination of fast broadband speeds and an ideal location for their desires and needs.
 
-With the use of AWS services and a series of compatible tools for big data processing, wrangling, querying, and storage, for this project I constructed a production-level data pipeline that's capable of ingesting and joining together these massive historical datasets. Further, it would be built to easily allow future enhancement -- that is, the tools used in my data pipeline will allow for higher future scalability and extensibility, meaning that I will be able to add additional existing datasets or data from APIs to ingest updated information.
+With the use of AWS services and a series of compatible tools for big data processing, wrangling, querying, and storage, for this project I constructed a production-level data pipeline that's capable of ingesting and joining together these massive historical datasets. Further, the tools used make it easy to allow future enhancement such as increasing the scale of the data by adding additional existing datasets or data from APIs to ingest updated information.
 
 ### Data Pipeline:
 
