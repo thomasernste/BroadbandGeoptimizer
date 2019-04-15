@@ -2,13 +2,13 @@
 
 ### Problem Statement:
 
-In recent years, the gap between property costs in large metropolitan areas and everywhere else has become more extreme than ever before. Some companies may want to consider looking to build or buy a new facility outside of the city, but one significant factor they can't overlook in this process is the quality and speed of the broadband access in their chosen areas of interest. But do companies even know where to look to easily find this information?
+In recent years, the gap between property costs in large metropolitan areas and everywhere else has widened considerably. Some companies may see this gap and consider setting up new offices or data centers in these non-urban areas. But one significant factor they can't overlook in this process is the quality and speed of the broadband access in their chosen areas of interest. Indeed, many companies may not even know where to look to find this information.
 
-This project seeks to help solve this problem. When a company decides they want to take advantage of the cost savings of setting up a business outside of the big city, Broadband Scout is an information database that can help companies compare the broadband speeds and a few other local characteristics to help make decisions about where they should build or buy a new building for their business.
+This project seeks to help solve this problem. When a company decides they want to take advantage of the cost savings of setting up a business outside of the big city, Broadband Scout is an information database that can help them compare the broadband speeds and a few other local characteristics to help make decisions about where they should build or buy a new building for their business.
 
 ### Solution:
 
-Using a series of large, publically available datasets containing information all mapped by zip code and also including broadband speeds, housing values, population data, demographics, and GPS coordinates, Broadband Geoptimizer is a tool that centralizes this disparate data together to help people identify areas in the US that have a desirable combination of fast broadband speeds and an ideal location for their desires and needs.
+Using a series of large, publically available datasets containing information including broadband speeds, housing values, population data, demographics, and GPS coordinates, Broadband Scout is a tool that centralizes this disparate data together to help people identify areas in the US that have a desirable combination of fast broadband speeds and an ideal location for their desires and needs.
 
 With the use of AWS services and a series of compatible tools for big data processing, wrangling, querying, and storage, for this project I constructed a production-level data pipeline that's capable of ingesting and joining together these massive historical datasets. Further, the functionality of the tools used allow for easy future enhancements to the database such as increasing the scale of the data by adding additional existing datasets or incorporating new data from APIs to ingest updated information.
 
