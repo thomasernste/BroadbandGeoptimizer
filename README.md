@@ -2,7 +2,7 @@
 
 ### Problem Statement:
 
-In recent years, the gap between property costs in large metropolitan areas and everywhere else has widened considerably. Some companies may see this gap and consider setting up new offices or data centers in these non-urban areas. But one significant factor they can't overlook in this process is the quality and speed of the broadband access in their chosen areas of interest. Indeed, many companies may not even know where to look to find this information.
+In recent years, the gap between property costs in large metropolitan areas and everywhere else has widened considerably. Some companies may see this gap and consider setting up new offices or data centers in these non-urban areas. But one significant factor they can't overlook in making this decision is the quality and speed of the broadband access in their chosen areas of interest. Indeed, many companies may not even know where to look to find this information.
 
 This project seeks to help solve this problem. When a company decides they want to take advantage of the cost savings of setting up a business outside of the big city, Broadband Scout is an information database that can help them compare the broadband speeds and a few other local characteristics to help make decisions about where they should build or buy a new building for their business.
 
